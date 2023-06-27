@@ -49,7 +49,7 @@ jobs:
           path: ./.github/actions/hello-USCIS2-composite-action
 
       - name: Run a Composite Action
-      - uses: ./.github/actions/hello-USCIS2-composite-action
+        uses: ./.github/actions/hello-USCIS2-composite-action
         with:
           who-to-greet: 'Mona the Octocat with USCIS'
 
